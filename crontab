@@ -1,0 +1,4 @@
+--- To take backup of script mentioned tables, every 30 minutes, your systemwide crontab should look like this.
+
+#MIN  HOUR  DOM  MON  DOW  CMD
+30    *      *    *    *    root  /path.to.script/updatedpw.sh
