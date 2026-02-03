@@ -9,7 +9,7 @@ last_file="${script_dir}/last_backed_up_sample_id.txt"
 chunk_size=500
 window_size=10000
 
-CREDS_FILE="/directory"
+CREDS_FILE="/directory_of_credential_file"
 
 mysql_user=$(grep -E '^MYSQL_USER=' "$CREDS_FILE" | cut -d= -f2-)
 mysql_pass=$(grep -E '^MYSQL_PASSWORD=' "$CREDS_FILE" | cut -d= -f2-)
