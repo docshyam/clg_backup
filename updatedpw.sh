@@ -16,9 +16,7 @@ mysql_pass=$(grep -E '^MYSQL_PASSWORD=' "$CREDS_FILE" | cut -d= -f2-)
 mysql_host="127.0.0.1"
 mysql_db="clg"
 
-tables="result result_blob primary_result primary_result_blob abga_id
-Anemia_id cal_id Comparison_ID fluid_id KIPD_ID M1_ID M2_ID niramaya_id
-opd_id qc_id request_id stem_id ward_id sample_link"
+tables="LIST_OF_IMPORTANT_AND_FAST_GROWING_TABLES"
 
 # ---------------------------------------------------------
 # 1. Read last backed up sample_id
